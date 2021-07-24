@@ -5,8 +5,18 @@
     text-decoration: none;
 }
 
-/*<div class="campo">
-            <br>
-            <label><strong>Conte um pouco sobre sua experiência:</strong></label>
-            <textarea row="6" style="width:26em" id="experiência" name="experiência"></textarea>
-</div>*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mensagem {
+    width: 200px;
+    height: 220px;
+    padding: 10px;
+}
+h1 {
+text-align: center;
+padding: 10px;
+}

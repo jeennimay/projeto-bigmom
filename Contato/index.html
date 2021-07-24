@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,28 +27,31 @@
         </nav>
     </header>
     <!--/Menu-->
+    <main>
     <section>
-    <h1>Contato</h1>
-    <form method="post">
+        <form id="form "method="post">
+        <h1>Contato</h1>
         <p>
             <label for="text">Nome:</label>
-            <input type="text" name="password">
+            <input type="text" name="text">
         </p>
         <p>
             <label for="Email">Email:</label>
-            <input type="email" name="Email">
+            <input type="email" name="email">
         </p>
-        <label for="senha">Senha</label>
+        <label for="senha">Senha:</label>
         <input type="password" name="password">
         <p>
-            <label for="Mensagem">Digite aqui sua mensagem</label>
-            <input type="text" name="Mensagem">
+            <label for="Mensagem">Digite aqui sua mensagem</label><br>
+
+            <textarea class="mensagem" type="text" name="text"></textarea>
         </p>
         <p>
             <button type="submit">Enviar</button>
         </p>
-    </form>
-    </section> 
+        </form>
+    </section>
+    </main>
     <!--/Menu-->
 
     <!--Footer-->
@@ -68,6 +71,5 @@
         </article>
     </footer>
     <!--/Footer-->
-  
 </body>
 </html>
