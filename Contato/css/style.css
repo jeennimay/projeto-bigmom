@@ -4,6 +4,19 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    --white: #FCF8F8;
+    --pink-dark:#A83E51;
+    --pink-grey:#C1576A;
+    --pink: #FCA4A6;
+    
+    /* 1 rem = 16px (User agent) = 100% (User agent) */
+    font-size: 62.5%; /* 10px */
+    /* Aqui definimos o tamanho padrao pra 10px */
+}
+body{
+    height: 100vr;
+}
 
 /* menu */
 .header{
@@ -39,7 +52,7 @@
 }
 /* /menu */
 
-
+/* CONTATO */
 main {
     display: flex;
     justify-content: center;
@@ -62,4 +75,23 @@ padding: 10px;
 
 li {
     list-style: none;
+}
+/* CONTATO /
+
+/* Footer */
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(252, 164, 166, 0.3);
+    padding: 2rem;
+    width: 100%;
+
+}
+footer article{
+    margin: 10px;
+}
+footer article img{
+    margin: 10px;
+    width: 20px;
 }
