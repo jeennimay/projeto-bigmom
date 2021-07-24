@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*<div class="campo">
+            <br>
+            <label><strong>Conte um pouco sobre sua experiência:</strong></label>
+            <textarea row="6" style="width:26em" id="experiência" name="experiência"></textarea>
+</div>*/
