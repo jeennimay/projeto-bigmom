@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Comfortaa', cursive, 'Montserrat', sans-serif;
+
+    background-color: tomato;
 }
 
 
@@ -18,10 +20,13 @@ header{
     align-items: center;
     padding: 5px 0px 5px 10px;
     background-color: tomato;
+    min-width: 340px;
+    flex-wrap: wrap;
 }
 
 .menu{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu>li>a{
@@ -34,13 +39,27 @@ header{
 
 
 /* banner */
-.banner-produto{
+
+.banner-container{
+    text-align: center;
     width: 100%;
 }
 
+.banner-produto{
+    min-width: 590px;
+    min-height: 200px;
+}
+
 .banner-desc{
+    margin-top: 60px;
+    width: 100%;
     text-align: center;
-    padding: 0 300px 0 300px;
+    min-width: 340px;
+}
+
+.banner-desc>p{
+    padding-right: 10rem;
+    padding-left: 10rem;
 }
 
 
@@ -48,12 +67,13 @@ header{
 
 /* produtos */
 .prod-container{
+    margin: 80px 0px 80px 0px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
-    background-color: blue;
+    background-color: none;
     padding: 0 170px 0 170px;
 }
 
@@ -71,4 +91,9 @@ header{
     height: 2rem;
     margin-bottom: 5px;
     cursor: pointer;
+    background-color: tomato;
+    color: black;
+    border-style: none;
+    transition: color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
 }
