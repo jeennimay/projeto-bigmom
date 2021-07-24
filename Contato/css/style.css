@@ -5,18 +5,61 @@
     text-decoration: none;
 }
 
+/* menu */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: white;
+    background-color: rgba(252, 164, 166, 0.3);
+    width: 100%;
+    height: 8rem;
+}
+.logo{
+    width: 6rem;
+    height: 5rem;
+    background: var(--pink-grey);
+    color: var(--white);
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+.item{
+    display: inline;
+    padding: 0.4rem;
+}
+.item > a{
+    color: #3B6FD9;
+    font-weight: bolder;
+}
+/* /menu */
+
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .mensagem {
     width: 200px;
     height: 220px;
     padding: 10px;
 }
+
 h1 {
 text-align: center;
 padding: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+li {
+    list-style: none;
 }
