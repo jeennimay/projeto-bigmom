@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Comfortaa";
 }
 html{
     --white: #FCF8F8;
@@ -18,7 +19,8 @@ body{
     height: 100vr;
 }
 
-/* menu */
+/*menu*/
+
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -50,33 +52,58 @@ body{
     color: #3B6FD9;
     font-weight: bolder;
 }
-/* /menu */
+/*/menu*/
 
-/* CONTATO */
-main {
+.imagem1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.mensagem {
-    width: 200px;
-    height: 220px;
-    padding: 10px;
-}
-
-h1 {
-text-align: center;
-padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color:  #3B6FD9;
+    height: auto;
+    text-align: center;
+    max-width: 30rem;
 }
 
-.menu{
+.produto {
+    margin: 10px;
     display: flex;
+    text-align: left;
+    padding: 25px;
+    color: cornflowerblue;
 }
-
 li {
     list-style: none;
+    padding: 10px;
 }
-/* CONTATO /
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.button {
+    border: none;
+    background-color: #3B6FD9;
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+/* menu */
+
+@media (max-width: 868px) {
+    .produto{
+        display: block;
+    }
+    .imagem1 {
+        max-width: 20rem;
+    }
+    
+}
+
+.descricao {
+    font-size: 1rem;
+}
+
 
 /* Footer */
 footer{
