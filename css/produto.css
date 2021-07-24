@@ -4,3 +4,29 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+.prod-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: blue;
+    padding: 0 170px 0 170px;
+}
+
+.produto{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    max-width: 175px;
+    text-align: center;
+}
+
+.comprar{
+    width: 9rem;
+    border-radius: 10px;
+    height: 2rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
