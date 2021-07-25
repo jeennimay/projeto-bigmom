@@ -75,8 +75,8 @@ main {
     text-align: left;
     padding: 25px;
     color: cornflowerblue;
-    
 }
+
 li {
     list-style: none;
     padding: 10px;
@@ -107,7 +107,7 @@ h2 {
 }
 
 .descricao {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 
