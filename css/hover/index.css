@@ -1,24 +1,9 @@
-*{ 
-    padding: 0; 
-    margin: 0; 
-    box-sizing: border-box; 
-    text-decoration: none; 
-  } 
-  html{ 
-    --white: #FCF8F8; 
-    --pink-dark:#A83E51; 
-    --pink-grey:#C1576A; 
-    --pink: #FCA4A6; 
-    --dark-blue: #3B6FD9; 
-    --green: #7ED9D0; 
-    --dark-green: #62C3D9;
-     
-    /* 1 rem = 16px (User agent) = 100% (User agent) */ 
-    font-size: 62.5%; /* 10px */ 
-    /* Aqui definimos o tamanho padrao pra 10px */ 
-    font-family: 'Comfortaa'; 
-    color:var(--dark-blue); 
-  } 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
 section.banner a:hover{
     background-color: whitesmoke;
