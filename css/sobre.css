@@ -69,16 +69,14 @@ h1{
 .menuSobre {
     margin: 0 auto;
     background-color:white;
-    height: 50%;
-    width: 100%;
     padding: 15px;
     border-radius: 2%;
-    display: inline-flex;
+    display: flex;
     position: relative;
 }
 section {
     padding: 20px;
-    margin: 100px;
+    margin: 4px;
     background-color: yellow;
 }
 
