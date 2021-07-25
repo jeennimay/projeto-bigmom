@@ -75,6 +75,7 @@ main {
     text-align: left;
     padding: 25px;
     color: cornflowerblue;
+    justify-content: space-between;
 }
 
 li {
@@ -108,7 +109,8 @@ h2 {
 
 .descricao {
     font-size: 2rem;
-    margin-left: 6rem;
+    width: 70%;
+
 }
 
 

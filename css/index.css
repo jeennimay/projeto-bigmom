@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{ 
   padding: 0; 
   margin: 0; 
@@ -19,6 +20,36 @@ html{
   font-family: 'Comfortaa'; 
   color:var(--dark-blue); 
 } 
+=======
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* /RESET */
+
+/* HTML */
+html{
+    --white: #FCF8F8;
+    --whitergba: rgba(252, 248, 248, 0.5);
+    --pink-dark:#A83E51;
+    --pink-grey:#C1576A;
+    --pink: #FCA4A6;
+    --dark-blue: #3B6FD9;
+    --green: #7ED9D0;
+    --dark-green: #62C3D9;
+    
+    /* 1 rem = 16px (User agent) = 100% (User agent) */
+    font-size: 62.5%; /* 10px */
+    /* Aqui definimos o tamanho padrao pra 10px */
+
+    font-family: 'Comfortaa';
+    color:var(--dark-blue);
+}
+/* /HTML */
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
 
 /* HEADER */
 .header{
@@ -100,7 +131,11 @@ body{
 section.banner{
     width: 100%;
     height: 45rem;
+<<<<<<< HEAD
     background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink.png');
+=======
+    background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink-alt.png');
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -217,14 +252,22 @@ reveal{
     margin-top: 20px;
   }
   
+<<<<<<< HEAD
 .contact .content .row{
+=======
+  .contact .content .row{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
   }
   
+<<<<<<< HEAD
 .contact .content .row .card{
+=======
+  .contact .content .row .card{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     background: #fff;
     width: 240px;
     margin: 20px;
@@ -237,13 +280,18 @@ reveal{
     border-radius: 10px;
   }
   
+<<<<<<< HEAD
 .contact .content .row .card .contact-icon{
+=======
+  .contact .content .row .card .contact-icon{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     color: #3a6cf4;
     font-size: 4em;
     text-align: center;
     transition: transform 0.5s ease;
   }
   
+<<<<<<< HEAD
 .contact .content .row .card:hover .contact-icon{
     transform: translateY(-10px);
   }
@@ -253,18 +301,37 @@ reveal{
   }
   
 .contact .content .row .card .info h3{
+=======
+  .contact .content .row .card:hover .contact-icon{
+    transform: translateY(-10px);
+  }
+  
+  .contact .content .row .card .info{
+    text-align: center;
+  }
+  
+  .contact .content .row .card .info h3{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     color: #111;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
   }
   
+<<<<<<< HEAD
 .contact .content .row .card .info span{
+=======
+  .contact .content .row .card .info span{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     color: #666;
     font-weight: 500;
   }
   
+<<<<<<< HEAD
 .contact-form{
+=======
+  .contact-form{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     background: #fff;
     max-width: 600px;
     margin-top: 50px;
@@ -273,7 +340,11 @@ reveal{
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   }
   
+<<<<<<< HEAD
 .contact-form h3{
+=======
+  .contact-form h3{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     color: #111;
     font-size: 1.6em;
     font-weight: 600;
@@ -281,6 +352,7 @@ reveal{
     margin-bottom: 40px;
   }
   
+<<<<<<< HEAD
 .contact-form .input-box{
     position: relative;
     width: 100%;
@@ -291,6 +363,18 @@ reveal{
 .contact-form .input-box textarea{
     color: #111;
     width: 100%;
+=======
+  .contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .input-box input,
+  .contact-form .input-box textarea{
+    color: #111;
+    width: 100%;
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     padding: 10px;
     font-size: 1em;
     font-weight: 400;
@@ -298,9 +382,15 @@ reveal{
     border: 1px solid #111;
     border-radius: 5px;
     resize: none;
+<<<<<<< HEAD
 }
   
 .contact-form .input-box .send-btn{
+=======
+  }
+  
+  .contact-form .input-box .send-btn{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     color: #fff;
     background: #3a6cf4;
     display: inline-block;
@@ -308,6 +398,20 @@ reveal{
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .contact-form .input-box .send-btn:hover{
+    background: #235bf6;
+  }
+
+.depoimentos{
+>>>>>>> 531f1f8d270363f079cb657e7b9bb5ceb9004a6f
     width: 100%;
     border: none;
     cursor: pointer;
@@ -336,3 +440,5 @@ footer article img{
     margin: 10px; 
     width: 20px; 
 } 
+
+
