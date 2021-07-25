@@ -27,12 +27,12 @@ html{
 /* IMAGEM DE BACKGROUND DA PÁGINA */
 img.img_bg {
     position: fixed;
+    z-index: -10;
     top: 50%;
-    left: 50%;
+    /* left: 50%; */
     height: 100%;
     width: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
+    transform: /* translateX(-50%) */ translateY(-50%);
 }
 
 /* HEADER */
@@ -81,6 +81,7 @@ main {
 
 /* CONTATO */
 section div {
+    z-index: 10;
     background-color: rgba(252, 164, 165, 0.7);
     border-radius: 20px;
     padding: 3rem;
@@ -154,3 +155,11 @@ footer article img{
     width: 20px;
 }
 /* FOOTER */
+
+@media (min-width:400px){
+    
+    .img_bg {
+        width: 100%;
+
+    }
+} 
