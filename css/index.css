@@ -1,30 +1,24 @@
-/* RESET */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-/* /RESET */
-
-/* HTML */
-html{
-    --white: #FCF8F8;
-    --pink-dark:#A83E51;
-    --pink-grey:#C1576A;
-    --pink: #FCA4A6;
-    --dark-blue: #3B6FD9;
-    --green: #7ED9D0;
-    --dark-green: #62C3D9;
-    
-    /* 1 rem = 16px (User agent) = 100% (User agent) */
-    font-size: 62.5%; /* 10px */
-    /* Aqui definimos o tamanho padrao pra 10px */
-
-    font-family: 'Comfortaa';
-    color:var(--dark-blue);
-}
-/* /HTML */
+*{ 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  text-decoration: none; 
+} 
+html{ 
+  --white: #FCF8F8; 
+  --pink-dark:#A83E51; 
+  --pink-grey:#C1576A; 
+  --pink: #FCA4A6; 
+  --dark-blue: #3B6FD9; 
+  --green: #7ED9D0; 
+  --dark-green: #62C3D9;
+   
+  /* 1 rem = 16px (User agent) = 100% (User agent) */ 
+  font-size: 62.5%; /* 10px */ 
+  /* Aqui definimos o tamanho padrao pra 10px */ 
+  font-family: 'Comfortaa'; 
+  color:var(--dark-blue); 
+} 
 
 /* HEADER */
 .header{
@@ -106,7 +100,7 @@ body{
 section.banner{
     width: 100%;
     height: 45rem;
-    background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink.jpg');
+    background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -118,6 +112,7 @@ section.banner h1{
     padding-top: 2rem;
     padding-bottom: 3rem;
     color: var(--white);
+    /* font-weight: bolder; */
 }
 
 section.banner div{
@@ -127,7 +122,7 @@ section.banner div{
 section.banner p{
     font-size: 1.2rem;
     padding-bottom: 4rem;
-    color: var(--pink-dark);
+    color: var(--dark-blue);
 }
 
 section.banner a{
@@ -160,6 +155,7 @@ section.banner a{
     height: 260px;
     overflow: hidden;
     border-radius: 10px;
+    
 }
   
 .Produtos .content .card .card-img img{
@@ -171,12 +167,9 @@ section.banner a{
     object-fit: cover;
     border-radius: 10px;
     transition: 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
   
-.Produtos .content .card .card-img img:hover{
-    transform: scale(1.2);
-  }
-
 reveal{
     position: relative;
     transform: translateY(50px);
@@ -216,17 +209,115 @@ reveal{
     transition: 0.5s ease;
 }
 
-.galeria{
+.contact .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+.contact .content .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+.contact .content .row .card{
+    background: #fff;
+    width: 240px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+  }
+  
+.contact .content .row .card .contact-icon{
+    color: #3a6cf4;
+    font-size: 4em;
+    text-align: center;
+    transition: transform 0.5s ease;
+  }
+  
+.contact .content .row .card:hover .contact-icon{
+    transform: translateY(-10px);
+  }
+  
+.contact .content .row .card .info{
+    text-align: center;
+  }
+  
+.contact .content .row .card .info h3{
+    color: #111;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+  }
+  
+.contact .content .row .card .info span{
+    color: #666;
+    font-weight: 500;
+  }
+  
+.contact-form{
+    background: #fff;
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  }
+  
+.contact-form h3{
+    color: #111;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+.contact-form .input-box{
+    position: relative;
     width: 100%;
-    height: 20rem;
-    background: blue;
+    margin-bottom: 20px;
+  }
+  
+.contact-form .input-box input,
+.contact-form .input-box textarea{
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #111;
+    border-radius: 5px;
+    resize: none;
+}
+  
+.contact-form .input-box .send-btn{
+    color: #fff;
+    background: #3a6cf4;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+  
+.contact-form .input-box .send-btn:hover {
+    background: #235bf6;
 }
 
-.depoimentos{
-    width: 100%;
-    height: 20rem;
-    background:yellow;
-}
 footer{
     /* Footer */ 
     margin-top: 100px; 
