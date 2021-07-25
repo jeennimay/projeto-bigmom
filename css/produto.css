@@ -31,7 +31,6 @@ body {
 
 
 /* menu - NAVBAR*/
-
 /* HEADER */
 .header{
     display: flex;
@@ -46,13 +45,6 @@ body {
 }
 
 /* configuração class da imagem da logo*/
-img.logo_img {
-    height: 9rem;
-    width: auto;
-    margin-left: 4rem;
-}
-
-/* class do texto da logo */
 img.logo_img {
     height: 9rem;
     width: auto;
