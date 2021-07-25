@@ -1,0 +1,18 @@
+
+.menusSobre {
+    margin: 0 auto;
+    background-color: #FCA4A6;
+    height: 50%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 2%;
+    display: inline-flex;
+    position: absolute;
+}
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 100px;
+}
