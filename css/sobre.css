@@ -17,6 +17,8 @@ html{
     /* 1 rem = 16px (User agent) = 100% (User agent) */
     font-size: 62.5%; /* 10px */
     /* Aqui definimos o tamanho padrao pra 10px */
+    font-family: 'Comfortaa';
+    color:var(--dark-blue);
 }
 
 /* HEADER */
@@ -73,11 +75,14 @@ h1{
     border-radius: 2%;
     display: flex;
     position: relative;
+    font-size: bold;
+    font-family: 'comfortaa';
+    text-align: left;
 }
 section {
     padding: 20px;
     margin: 4px;
-    background-color: yellow;
+    background-color: #F2B6D7;
 }
 
 /* Footer */
