@@ -112,6 +112,9 @@ footer{
     justify-content: space-between;
     background-color: rgba(252, 164, 166, 0.3);
     padding: 2rem;
+    position: relative;
+    top: 40px;
+    bottom: 0;
     width: 100%;
 
 }
