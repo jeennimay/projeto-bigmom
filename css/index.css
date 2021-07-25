@@ -106,7 +106,7 @@ body{
 section.banner{
     width: 100%;
     height: 45rem;
-    background-image: url('../img/bgImage.webp');
+    background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -120,10 +120,14 @@ section.banner h1{
     color: var(--white);
 }
 
+section.banner div{
+    max-width: 40%;
+}
+
 section.banner p{
-    font-size: 1.8rem;
-    padding-bottom: 5rem;
-    color: var(--white);
+    font-size: 1.2rem;
+    padding-bottom: 4rem;
+    color: var(--pink-dark);
 }
 
 section.banner a{
@@ -133,10 +137,83 @@ section.banner a{
     border-radius: 2.5rem;
 }
 
-.carrosel{
+.Produtos{
+    background: #f2b6d7;
+  }
+  
+.Produtos .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+.Produtos .content .card{
+    width: 20rem;
+    margin: 1.5rem;
+  }
+  
+.Produtos .content .card .card-img{
+    position: relative;
     width: 100%;
-    height: 20rem;
-    background: red;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+  
+.Produtos .content .card .card-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+  
+.Produtos .content .card .card-img img:hover{
+    transform: scale(1.2);
+  }
+
+reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1.5s ease;
+  }
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.section-title{
+    margin-top: 2rem;
+}
+
+.btn {
+    color: #fff;
+    background: #3a6cf4;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: 0.5s ease;
 }
 
 .galeria{
