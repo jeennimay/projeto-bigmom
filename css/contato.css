@@ -4,8 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Comfortaa';
-    color:var(--dark-blue);
 }
 /* HTML */
 html{
@@ -20,24 +18,21 @@ html{
     /* 1 rem = 16px (User agent) = 100% (User agent) */
     font-size: 62.5%; /* 10px */
     /* Aqui definimos o tamanho padrao pra 10px */
+
+    font-family: 'Comfortaa';
+    color:var(--dark-blue);
 }
-/* BODY */
-body{
-    height: 100vr;
-}
+/* /HTML */
+
 /* IMAGEM DE BACKGROUND DA PÁGINA */
 img.img_bg {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
     height: 100%;
+    width: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    
-
 }
 
 /* HEADER */
@@ -65,8 +60,61 @@ img.img_bg {
     margin-left: 3rem;
 }
 
+.item{
+    display: inline;
+    padding-bottom: 0.5rem;
+    margin: 0 0.5rem ;
+}
+.item > a{
+    color: #3B6FD9;
+    font-weight: bolder;
+}
+/* /HEADER */
 
-button {
+/* MAIN */
+main {
+    display: flex;
+    padding: 5rem 0;
+    justify-content: center;
+    background: linear-gradient(120deg, #f2b6d79d, #7ed9d09b);
+}
+
+/* CONTATO */
+section div {
+    background-color: rgba(252, 164, 165, 0.7);
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+form label {
+    display: block;
+    margin-left: 1rem;
+}
+
+form input {
+    margin: 0.5rem;
+    border-radius: 25px;
+    border: solid 1px;
+    background-color: var(--white);
+    border-color: var(--dark-blue);
+    height: 2rem;
+    width: 80%;
+}
+
+form input[placeholder], textarea[placeholder] {
+    font-size: 8px;
+    padding: 3px 0px 0 5px;
+}
+
+form button {
+    display: block;
     border-style: none;
     border-radius: 2.5rem; 
     background-color: var(--dark-blue);
@@ -76,53 +124,6 @@ button {
     margin-top: 1rem;
 }
 
-.item{
-    display: inline;
-    padding-bottom: 0.5rem;
-}
-.item > a{
-    color: #3B6FD9;
-    font-weight: bolder;
-}
-/* /HEADER */
-
-/* CONTATO */
-h1 {
-text-align: center;
-padding: 10px;
-text-transform: uppercase;
-}
-
-section {
-    background-color: rgba(252, 164, 165, 0.342);
-    padding: 5rem;
-    
-}
-
-form label {
-    display: block;
-    margin-left: 1rem;
-}
-
-input {
-    margin: 1rem;
-    border-radius: 25px;
-    border: solid 1px;
-    background-color: var(--white);
-    border-color: var(--dark-blue);
-    height: 2rem;
-}
-
-main {
-    display: flex;
-    padding-top: 5rem;
-    justify-content: center;
-    height: 80vh;
-    background: linear-gradient(120deg, #f2b6d79d, #7ed9d09b);
-    display: flex;
-    
-    
-}
 .mensagem {
     width: 200px;
     height: 220px;
@@ -130,11 +131,6 @@ main {
     border-radius: .5rem;
     margin-top: .5rem;
     
-}
-
-
-.menu{
-    display: flex;
 }
 
 li {
@@ -149,8 +145,6 @@ footer{
     background-color: var(--green);
     padding: 2rem;
     width: 100%;
-    position: relative;
-    bottom: 0;
 }
 footer article{
     margin: 10px;
