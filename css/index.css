@@ -10,6 +10,7 @@
 /* HTML */
 html{
     --white: #FCF8F8;
+    --whitergba: rgba(252, 248, 248, 0.5);
     --pink-dark:#A83E51;
     --pink-grey:#C1576A;
     --pink: #FCA4A6;
@@ -106,7 +107,7 @@ body{
 section.banner{
     width: 100%;
     height: 45rem;
-    background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink.jpg');
+    background-image: url('../img/cupcakes-with-pink-icing-and-pink-drink-alt.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -118,6 +119,7 @@ section.banner h1{
     padding-top: 2rem;
     padding-bottom: 3rem;
     color: var(--white);
+    /* font-weight: bolder; */
 }
 
 section.banner div{
@@ -127,7 +129,7 @@ section.banner div{
 section.banner p{
     font-size: 1.2rem;
     padding-bottom: 4rem;
-    color: var(--pink-dark);
+    color: var(--dark-blue);
 }
 
 section.banner a{
@@ -171,12 +173,9 @@ section.banner a{
     object-fit: cover;
     border-radius: 10px;
     transition: 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
   
-.Produtos .content .card .card-img img:hover{
-    transform: scale(1.2);
-  }
-
 reveal{
     position: relative;
     transform: translateY(50px);
