@@ -1,0 +1,5 @@
+button.comprar:hover{
+    color: tomato;
+    background-color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section.banner a:hover{
+    background-color: rgba(249, 190, 199, 0.4);
+    color: #0b132b;
+}
