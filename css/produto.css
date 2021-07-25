@@ -6,36 +6,61 @@
     text-decoration: none;
     list-style: none;
 }
+/* HTML */
+html{
+    --white: #FCF8F8;
+    --pink-dark:#A83E51;
+    --pink-grey:#C1576A;
+    --pink: #FCA4A6;
+    color: #3b6fd9;
+    
+    /* 1 rem = 16px (User agent) = 100% (User agent) */
+    font-size: 62.5%; /* 10px */
+    /* Aqui definimos o tamanho padrao pra 10px */
+}
 
+
+/* BODY */
 body {
     font-family: 'Comfortaa', cursive, 'Montserrat', sans-serif;
-
-    background-color: tomato;
+    background-color: var(--white);
 }
 
 
-/* menu */
-header{
+/* menu - NAVBAR*/
+/* HEADER */
+.header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0px 5px 10px;
-    background-color: tomato;
-    min-width: 340px;
-    flex-wrap: wrap;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: white;
+    background-color: var(--pink);
+    width: 100%;
+    height: 8rem;
 }
-
-.menu{
-    display: flex;
-    flex-wrap: wrap;
+.logo{
+    width: 6rem;
+    height: 5rem;
+    background: var(--pink-grey);
+    color: var(--white);
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 3rem;
 }
-
-.menu>li>a{
-    margin: 10px;
-    padding: 15px;
-    color: black;
+.item{
+    display: inline;
+    padding-bottom: 0.5rem;
+    margin: 5px;
 }
-
+.item > a{
+    color: #3B6FD9;
+    font-weight: bolder;
+}
 
 
 
@@ -45,52 +70,58 @@ header{
     text-align: center;
     width: 100%;
 }
-
+/* banner - imagem */
 .banner-produto{
-    min-width: 590px;
-    min-height: 200px;
+    margin: 5rem 0;
+    max-width: 500rem;
 }
-
+/* banner - descrição */
 .banner-desc{
     margin-top: 60px;
-    width: 100%;
     text-align: center;
-    min-width: 340px;
 }
-
+/* banner - descrição - paragráfo */
 .banner-desc>p{
-    padding-right: 10rem;
-    padding-left: 10rem;
+    padding: 0 10rem;
 }
-
 
 
 
 /* produtos */
 .prod-container{
-    margin: 80px 0px 80px 0px;
+    margin: 80px 0px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     background-color: none;
-    padding: 0 170px 0 170px;
+    padding: 0 170px;
 }
 
 .produto{
     border: 1px solid black;
     border-radius: 4px;
     background-color: white;
-    max-width: 175px;
+    width: 175px;
     text-align: center;
+}
+
+.produto img {
+    width: 10rem;
+    margin: 1rem;
+}
+
+.produto p {
+    margin: 1rem;
+    text-transform: uppercase;
 }
 
 .comprar{
     width: 9rem;
     border-radius: 10px;
     height: 2rem;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
     cursor: pointer;
     background-color: tomato;
     color: black;
