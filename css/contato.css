@@ -1,6 +1,161 @@
+/* RESET */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Comfortaa';
+    color:var(--dark-blue);
+}
+/* HTML */
+html{
+    --white: #FCF8F8;
+    --pink-dark:#A83E51;
+    --pink-grey:#C1576A;
+    --pink: #FCA4A6;
+    --dark-blue: #3B6FD9;
+    --green: #7ED9D0;
+    --dark-green: #62C3D9;
+    
+    /* 1 rem = 16px (User agent) = 100% (User agent) */
+    font-size: 62.5%; /* 10px */
+    /* Aqui definimos o tamanho padrao pra 10px */
+}
+/* BODY */
+body{
+    height: 100vr;
+}
+/* IMAGEM DE BACKGROUND DA PÁGINA */
+img.img_bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    
+
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: white;
+    background-color: var(--pink);
+    width: 100%;
+    height: 8rem;
+}
+.logo{
+    width: 6rem;
+    height: 5rem;
+    background: var(--pink-grey);
+    color: var(--white);
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+
+
+button {
+    border-style: none;
+    border-radius: 2.5rem; 
+    background-color: var(--dark-blue);
+    color: aliceblue;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.item{
+    display: inline;
+    padding-bottom: 0.5rem;
+}
+.item > a{
+    color: #3B6FD9;
+    font-weight: bolder;
+}
+/* /HEADER */
+
+/* CONTATO */
+h1 {
+text-align: center;
+padding: 10px;
+text-transform: uppercase;
+}
+
+section {
+    background-color: rgba(252, 164, 165, 0.342);
+    padding: 5rem;
+    
+}
+
+form label {
+    display: block;
+    margin-left: 1rem;
+}
+
+input {
+    margin: 1rem;
+    border-radius: 25px;
+    border: solid 1px;
+    background-color: var(--white);
+    border-color: var(--dark-blue);
+    height: 2rem;
+}
+
+main {
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(120deg, #f2b6d79d, #7ed9d09b);
+    display: flex;
+    
+    
+}
+.mensagem {
+    width: 200px;
+    height: 220px;
+    border-color:var(--dark-blue);
+    border-radius: .5rem;
+    margin-top: .5rem;
+    
+}
+
+
+.menu{
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+/* CONTATO /
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--green);
+    padding: 2rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+footer article{
+    margin: 10px;
+}
+footer article img{
+    margin: 10px;
+    width: 20px;
 }
