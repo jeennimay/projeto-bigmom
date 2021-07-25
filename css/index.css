@@ -338,19 +338,3 @@ footer article img{
 } 
 
 
-.flex-materias{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.flex-materias > div {
- flex: 1 1 200px;
- margin: 10px;
- text-align: center;
- padding: px;
- border-radius: 5px;
- box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-
-}
