@@ -118,7 +118,7 @@ h2 {
 /* menu */
 
 /* configuraçao redirecionamento de tela */
-@media (max-width: 868px) {
+@media (max-width: 515px) {
     .produto{
         display: block;
     }
