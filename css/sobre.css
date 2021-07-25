@@ -58,6 +58,7 @@ html{
 h1{
     text-align: center;
     margin: 30px;
+    
 }
 /* header */
 
@@ -82,7 +83,12 @@ h1{
 section {
     padding: 20px;
     margin: 4px;
-    background-color: #F2B6D7;
+    font-size: 2rem;
+    
+}
+h2 {
+    margin: 25px;
+    text-align: center;
 }
 
 /* Footer */
