@@ -1,174 +1,233 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- TITLE -->
     <title>Big Mom - Cupcake</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/hover/index.css">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/hover/index.css" />
     <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- FAV ICON -->
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <!-- Inicio do Menu -->
     <div class="container">
-        <!-- HEADER -->
-        <header class="header">
-            <a href="index.html" class="logo">Big Mom</a>
-            <nav class="menu">
-                <ul>
-                    <li class="item"><a href="index.html">Home</a></li>
-                    <li class="item"><a href="sobre.html">Sobre</a></li>
-                    <li class="item"><a href="produto.html">Produtos</a></li>
-                    <li class="item"><a href="contato.html">Contato</a></li>
-                    <li class="item"><a href="login.html">Login</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- /HEADER -->
+      <!-- HEADER -->
+      <header class="header">
+        <a href="index.html" class="logo">Big Mom</a>
+        <nav class="menu">
+          <ul>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="sobre.html">Sobre</a></li>
+            <li class="item"><a href="produto.html">Produtos</a></li>
+            <li class="item"><a href="contato.html">Contato</a></li>
+            <li class="item"><a href="login.html">Login</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- /HEADER -->
 
-        <main>
-            <!-- Primeira parte do Body -->
-            <section class="banner">
-                <!-- Texto de apresentação da big mom cupcake -->
-                <h1>Big Mom Cupcakes</h1>
-                <div>
-                    <p>Queremos que a cada mordida a sensação seja um ponto de partida para maravilhosas lembranças.</p>
+      <main>
+        <!-- Primeira parte do Body -->
+        <section class="banner">
+          <!-- Texto de apresentação da big mom cupcake -->
+          <h1>Big Mom Cupcakes</h1>
+          <div>
+            <p>
+              Queremos que a cada mordida a sensação seja um ponto de partida
+              para maravilhosas lembranças.
+            </p>
+          </div>
+          <a href="#">Faça seu pedido</a
+          ><!-- Botão para página de produtos -->
+        </section>
+        <!-- Aqui é a seção onde vamos inserir od produtos na home-->
+        <section class="Produtos" id="Produtos">
+          <div class="title reveal">
+            <h2 class="section-title">Produtos</h2>
+          </div>
+          <div class="content">
+            <div class="card reveal">
+              <div class="card-img">
+                <img src="./img/cupcake_abacate.jpg" alt="" />
+              </div>
+              <div class="title reveal">
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="card-img">
+                <img src="./img/cupcake_uva.jpg" alt="" />
+              </div>
+              <div class="title reveal">
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="card-img">
+                <img src="./img/cupcake_doceLeite.jpg" alt="" />
+              </div>
+              <div class="title reveal">
+                <a href="#" class="btn">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Nessa section o intuito é inserir uma galeria com vários cupcakes -->
+        <section class="contact" id="contact">
+          <div class="title reveal">
+            <h2 class="section-title">Contato</h2>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="card reveal">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
                 </div>
-                <a href="#">Faça seu pedido</a><!-- Botão para página de produtos -->
-            </section>
-            <!-- Aqui é a seção onde vamos inserir od produtos na home-->
-            <section class="Produtos" id="Produtos">
-                <div class="title reveal">
-                  <h2 class="section-title">Produtos</h2>
+                <div class="info">
+                  <h3>Endereço</h3>
+                  <span>Rua dos Programadores, Htmlzília , Csslândia</span>
                 </div>
-                <div class="content">
-                  <div class="card reveal">
-                    <div class="card-img">
-                      <img src="./img/cupcake_abacate.jpg" alt="">
-                    </div>
-                    <div class="title reveal">
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                  </div>
-                  <div class="card reveal">
-                    <div class="card-img">
-                      <img src="./img/cupcake_uva.jpg" alt="">
-                    </div>
-                    <div class="title reveal">
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                  </div>
-                  <div class="card reveal">
-                    <div class="card-img">
-                      <img src="./img/cupcake_doceLeite.jpg" alt="">
-                    </div>
-                    <div class="title reveal">
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                  </div>
+              </div>
+              <div class="card reveal">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
                 </div>
+                <div class="info">
+                  <h3>telefone</h3>
+                  <span>+00 0000 000 000</span>
+                </div>
+<<<<<<< HEAD
+              </div>
+              <div class="card reveal">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+=======
             </section>  
             <!-- Area de contato-->
             <section class="contact" id="contact">
                 <div class="title reveal">
                   <h2 class="section-title">Contato</h2>
+>>>>>>> 5abc17aec6b872c9dfb22ba46ffe71cf62fdbb28
                 </div>
-                <div class="content">
-                  <div class="row">
-                    <div class="card reveal">
-                      <div class="contact-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                      </div>
-                      <div class="info">
-                        <h3>Endereço</h3>
-                        <span>Rua dos Programadores, Htmlzília , Csslândia</span>
-                      </div>
-                    </div>
-                    <div class="card reveal">
-                      <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                      </div>
-                      <div class="info">
-                        <h3>telefone</h3>
-                        <span>+00 0000 000 000</span>
-                      </div>
-                    </div>
-                    <div class="card reveal">
-                      <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                      </div>
-                      <div class="info">
-                        <h3>Email</h3>
-                        <span>contact@email.com</span>
-                      </div>
-                    </div>
-                    <div class="card reveal">
-                      <div class="contact-icon">
-                        <i class="fas fa-globe"></i>
-                      </div>
-                      <div class="info">
-                        <h3>Website</h3>
-                        <span><a href="#">www.meusite.com</a></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="contact-form reveal">
-                      <h3>Mande sua mensagem</h3>
-                      <div class="input-box">
-                        <input type="text" name="" value="" placeholder="Name">
-                      </div>
-                      <div class="input-box">
-                        <input type="text" name="" value="" placeholder="Email">
-                      </div>
-                      <div class="input-box">
-                        <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
-                      </div>
-                      <div class="input-box">
-                        <input type="submit" class="send-btn" name="" value="enviar">
-                      </div>
-                    </div>
-                  </div>
+                <div class="info">
+                  <h3>Email</h3>
+                  <span>contact@email.com</span>
                 </div>
+              </div>
+              <div class="card reveal">
+                <div class="contact-icon">
+                  <i class="fas fa-globe"></i>
+                </div>
+                <div class="info">
+                  <h3>Website</h3>
+                  <span><a href="#">www.meusite.com</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="contact-form reveal">
+                <h3>Mande sua mensagem</h3>
+                <div class="input-box">
+                  <input type="text" name="" value="" placeholder="Name" />
+                </div>
+<<<<<<< HEAD
+                <div class="input-box">
+                  <input type="text" name="" value="" placeholder="Email" />
+                </div>
+                <div class="input-box">
+                  <textarea
+                    name="name"
+                    rows="8"
+                    cols="80"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="input-box">
+                  <input
+                    type="submit"
+                    class="send-btn"
+                    name=""
+                    value="enviar"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section onde iremos mostrar os depoimentos dos usuários -->
+        <div class="depoimentos">
+          <section class="flex-materias">
+            <div>
+              <p class="FINALIZADO">FINALIZADO</p>
+              <h4>Learning Agility</h4>
+              <img class="img-materias" src="img/learningagility.jpg" alt="" />
+              <br />
+              <button class="btn-ATIVO">Continuar</button>
+              <br />
+              <button>Ver módulos</button>
+            </div>
+
+            <div>
+              <p class="ATIVO">ATIVO</p>
+              <h4>Front End I</h4>
+              <img class="img-materias" src="" alt="" />
+              <br />
+              <button class="btn-ATIVO">Continuar</button>
+              <br />
+              <button class="btn">Ver módulos</button>
+            </div>
+
+            <div>
+              <p class="ATIVO">ATIVO</p>
+              <h4>Metodologias Ágeis</h4>
+              <img
+                class="img-materias"
+                src="img/twitter.png"
+                alt=""
+              />
+
+              <br />
+              <button class="btn-ATIVO">Continuar</button>
+              <br />
+              <button>Ver módulos</button>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- Footer com info de contatos -->
+      <footer>
+        <article>
+          <img src="./img/facebook.png" alt="facebook" />
+          <img src="./img/instagram.png" alt="instagram" />
+          <img src="./img/twitter.png" alt="twitter" />
+        </article>
+        <article>
+          <img src="./img/phone-call.png" alt="telefone" />
+          <p>(11)4002-8922</p>
+        </article>
+        <article>
+          <img src="./img/black-placeholder-variant.png" alt="localização" />
+          <p>Rua Breatriz Rosa, SP</p>
+        </article>
+      </footer>
+      <!--/Footer-->
+      <!--  -->
+=======
             </section>
             <!-- Section onde iremos mostrar os depoimentos dos usuários -->
-            <section class="Produtos">
-                <div class="title reveal">
-                  <h2 class="section-title">Depoimentos</h2>
-                </div>
-                <div class="content">
-                    <div class="card reveal">
-                        <div class="card-img">
-                          <img src="./img/person1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="card reveal">
-                        <div class="card-img">
-                          <img src="./img/person2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="content">
-                    <div class="card reveal">
-                        <div class="card-img">
-                          <img src="./img/person3.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
+            
         </main>
         <!-- Footer com info de contatos -->
         <footer>
@@ -188,7 +247,7 @@
         </footer>
         <!--/Footer-->
         <!--  -->
+>>>>>>> 5abc17aec6b872c9dfb22ba46ffe71cf62fdbb28
     </div>
-</body>
-
+  </body>
 </html>
