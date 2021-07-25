@@ -21,6 +21,7 @@ html{
     font-family: 'Comfortaa';
     color:var(--dark-blue);
 }
+
 /* HEADER */
 .header{
     display: flex;
@@ -70,7 +71,7 @@ nav.menu {
 
 
 
-/*/menu*/
+/* menu */
 
 .imagem1 {
     display: flex;
@@ -116,6 +117,7 @@ h2 {
 }
 /* menu */
 
+/* configuraçao redirecionamento de tela */
 @media (max-width: 868px) {
     .produto{
         display: block;
