@@ -16,7 +16,7 @@ html{
     /* Aqui definimos o tamanho padrao pra 10px */
 }
 body{
-    height: 100vr;
+    
 }
 
 /*menu*/
@@ -64,12 +64,18 @@ body{
     max-width: 30rem;
 }
 
+main {
+    position: relative;
+}
+
 .produto {
     margin: 10px;
+    margin-bottom: 20rem;
     display: flex;
     text-align: left;
     padding: 25px;
     color: cornflowerblue;
+    
 }
 li {
     list-style: none;
@@ -106,7 +112,7 @@ h2 {
 
 
 /* Footer */
-footer{
+/* footer{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -117,7 +123,18 @@ footer{
     bottom: 0;
     width: 100%;
 
-}
+} */
+
+footer{
+    background: #ffab62;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    position: relative;
+
+    }
+
 footer article{
     margin: 10px;
 }
