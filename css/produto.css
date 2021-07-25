@@ -1,22 +1,25 @@
-/*RESET*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    list-style: none;
 }
-/* HTML */
+
 html{
     --white: #FCF8F8;
     --pink-dark:#A83E51;
     --pink-grey:#C1576A;
     --pink: #FCA4A6;
-    color: #3b6fd9;
+    --dark-blue: #3B6FD9;
+    --green: #7ED9D0;
+    --dark-green: #62C3D9;
+
     
     /* 1 rem = 16px (User agent) = 100% (User agent) */
     font-size: 62.5%; /* 10px */
     /* Aqui definimos o tamanho padrao pra 10px */
+    font-family: 'Comfortaa';
+    color:var(--dark-blue);
 }
 
 
@@ -35,31 +38,63 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
-    color: white;
     background-color: var(--pink);
     width: 100%;
-    height: 8rem;
+    height: 13rem;
+
 }
-.logo{
-    width: 6rem;
-    height: 5rem;
-    background: var(--pink-grey);
-    color: var(--white);
-    border-radius: 5rem;
-    text-align: center;
-    padding-top: 2rem;
-    font-style: italic;
+
+/* configuração class da imagem da logo*/
+img.logo_img {
+    height: 9rem;
+    width: auto;
+    margin-left: 4rem;
+}
+
+/* class do texto da logo */
+.logo{ 
+    font-size: 3rem;
+    color: var(--pink-dark);
     font-weight: bolder;
-    margin-left: 3rem;
+    text-transform: uppercase;
+    
 }
-.item{
+
+nav.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4rem;
+}
+
+.menu_item{
     display: inline;
-    padding-bottom: 0.5rem;
-    margin: 5px;
+    margin: 2rem;
 }
-.item > a{
-    color: #3B6FD9;
+.menu_item > a{
+    color: var(--pink-dark);
     font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* header */
+
+/* MAIN */
+
+
+main {
+    margin-bottom: 4rem;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 4px;
+    font-size: 2rem;
 }
 
 
@@ -83,6 +118,14 @@ body {
 /* banner - descrição - paragráfo */
 .banner-desc>p{
     padding: 0 10rem;
+}
+
+@media (max-width: 460px) {
+    .banner-container .banner-produto{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
@@ -129,29 +172,53 @@ body {
     transition: color 1s ease-in-out;
     transition: background-color 1s ease-in-out;
 }
-/* footer */
 
-footer{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(252, 164, 166, 0.3);
+/* Footer */
+footer {
     padding: 2rem;
-    position: relative;
-    top: 40px;
-    bottom: 0;
     width: 100%;
-
+    background-color: var(--green);
 }
-footer article{
-    margin: 10px;
+footer section.menu-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+footer article {
+    display: flex;
+    margin: 1rem;
+    align-content: center;
+    justify-content: center;
+    
 }
 footer article img{
-    margin: 10px;
+    margin: 0 10px;
     width: 20px;
+    height: 20px;
 }
-@media (max-width:320px){
-    main{
+footer article p{
+    display: inline;
+    margin: 0;
+}
+
+@media (max-width:238px){
+    .menuSobre{
         display: block;
+    }
+}
+
+@media (max-width: 740px){
+    nav.menu_item {
+        flex-wrap: wrap;
+        display: block;
+        justify-content: flex-start;
+    }
+    footer article{
+    display: block;
+    justify-content: flex-start;
+    }
+    footer section.menu-footer{
+    display: block;
     }
 }
