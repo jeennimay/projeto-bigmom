@@ -1,6 +1,132 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-weight: Bold 700;
+}
+  
+
+    
+  
+  video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    
+    }
+
+    label{
+        color: #5f94d9;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+  .login {
+    height: 100vh;
+    background: linear-gradient(120deg, #f2b6d79d, #7ed9d09b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login__container {
+    min-height: 400px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.52);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login__title {
+    margin-bottom: 32px;
+    color: #3b6fd9;
+    font-family: 'Comfortaa', cursive;
+    font-weight: Bold;
+  }
+  
+  .login__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login__input {
+    height: 35px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+    position: relative;
+    border-radius: 50px;
+    margin-bottom: 15px;
+  }
+  
+
+  
+
+  .login__esqueceu {
+    font-size: 12px;
+    color: gray;
     text-decoration: none;
+  }
+ 
+  .ceta{
+      position: absolute;
+  }
+
+  button.btn{
+    margin-top: 15px;
+    height: 32px;
+    width: 100px;
+    padding-left: 8px;
+    outline: none;
+    position: relative;
+    background: linear-gradient(120deg, #f2b6d7, #62c3d9,#f2b6d7);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: white ;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  button.btn:hover{
+      background-color:#f2b6d7;
+  }
+
+  .github{
+    margin-top: 15px;
+    width: 50px;
+    height: auto;
+    
+}
+
+.google{
+    margin-top: 15px;
+    width: 50px;
+    height: auto;
+    
+}
+
+.linkedin{
+    margin-top: 15px;
+    width: 50px;
+    height: auto;
+    
 }
