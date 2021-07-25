@@ -112,7 +112,7 @@ h2 {
 
 
 /* Footer */
-/* footer{
+footer{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -123,9 +123,9 @@ h2 {
     bottom: 0;
     width: 100%;
 
-} */
+} 
 
-footer{
+/*footer{
     background: #ffab62;
     width: 100%;
     position: fixed;
@@ -133,7 +133,7 @@ footer{
     left: 0;
     position: relative;
 
-    }
+}*/
 
 footer article{
     margin: 10px;
