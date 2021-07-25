@@ -1,23 +1,66 @@
+/* RESET */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    
 }
+/* /RESET */
 
+/* HTML */
 html{
     --white: #FCF8F8;
     --pink-dark:#A83E51;
     --pink-grey:#C1576A;
     --pink: #FCA4A6;
-    color: #3b6fd9;
+    --dark-blue: #3B6FD9;
+    --green: #7ED9D0;
+    --dark-green: #62C3D9;
     
     /* 1 rem = 16px (User agent) = 100% (User agent) */
     font-size: 62.5%; /* 10px */
     /* Aqui definimos o tamanho padrao pra 10px */
-    
+
+    font-family: 'Comfortaa';
+    color:var(--dark-blue);
 }
+/* /HTML */
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    color: white;
+    background-color: var(--pink);
+    width: 100%;
+    height: 8rem;
+}
+.logo{
+    width: 6rem;
+    height: 5rem;
+    background: var(--pink-grey);
+    color: var(--white);
+    border-radius: 5rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+
+.item{
+    display: inline;
+    padding-bottom: 0.5rem;
+    margin: 0 0.5rem ;
+}
+.item > a{
+    color: #3B6FD9;
+    font-weight: bolder;
+}
+/* /HEADER */
 
 body{
     background: var(--white);
