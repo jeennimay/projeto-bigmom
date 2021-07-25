@@ -120,6 +120,14 @@ section {
     padding: 0 10rem;
 }
 
+@media (max-width: 460px) {
+    .banner-container .banner-produto{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 
 
 /* produtos */
