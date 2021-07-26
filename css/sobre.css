@@ -171,7 +171,6 @@ footer article p{
     .header {
         justify-content: center;
     }
-  }
 }
 @media (max-width:375px){
     .menu_item {

@@ -237,7 +237,7 @@ section.banner a{
     .contact-form{
     background: #fff;
     max-width: 60rem;
-    margin-top: 5rem;
+    margin: 5rem 0;
     padding: 5rem;
     border-radius: 1rem;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
@@ -284,6 +284,7 @@ section.banner a{
     transition: 0.5s ease;
   }
   
+
 .depoimentos{
     width: 100%;
     border: none;
