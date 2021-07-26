@@ -386,7 +386,9 @@ footer article p{
   .menu_item a span{
     display: none;
   }
-  
+  .header {
+  justify-content: center;
+  }
 }
 
 @media (max-width:375px){
@@ -399,9 +401,6 @@ footer article p{
     margin-left: 0;
   }
 
-  .header {
-  justify-content: center;
-  }
   nav.menu {
     margin-right: 0;
   }
