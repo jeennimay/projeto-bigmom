@@ -64,21 +64,16 @@ body {
 
 
 
-/* banner */
-
-.banner-container{
-    text-align: center;
-    width: 100%;
-}
 /* banner - imagem */
 .banner-produto{
-    margin: 5rem 0;
     max-width: 500rem;
+    width: 100%;
 }
 /* banner - descrição */
 .banner-desc{
     margin-top: 60px;
     text-align: center;
+    font-size: 2rem;
 }
 /* banner - descrição - paragráfo */
 .banner-desc>p{
@@ -100,11 +95,13 @@ body {
 }
 
 .produto{
-    border: 1px solid black;
+    border: 1px;
     border-radius: 4px;
-    background-color: white;
+    background-color: rgba(252, 164, 166, 0.3);
     width: 175px;
     text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .produto img {
@@ -115,6 +112,8 @@ body {
 .produto p {
     margin: 1rem;
     text-transform: uppercase;
+    color: #3b6fd9;
+    font-weight: bold;
 }
 
 .comprar{
@@ -123,11 +122,10 @@ body {
     height: 2rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    background-color: tomato;
-    color: black;
+    background-color: white;
+    color: #3b6fd9;
     border-style: none;
-    transition: color 1s ease-in-out;
-    transition: background-color 1s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 /* footer */
 
