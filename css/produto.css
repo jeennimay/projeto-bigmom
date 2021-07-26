@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
-
-html{
+  }
+  
+  html{
     --white: #FCF8F8;
     --pink-dark:#A83E51;
     --pink-grey:#C1576A;
@@ -13,14 +13,14 @@ html{
     --dark-blue: #3B6FD9;
     --green: #7ED9D0;
     --dark-green: #62C3D9;
-
-    
+  
     /* 1 rem = 16px (User agent) = 100% (User agent) */
     font-size: 62.5%; /* 10px */
     /* Aqui definimos o tamanho padrao pra 10px */
     font-family: 'Comfortaa';
     color:var(--dark-blue);
-}
+    scroll-behavior: smooth;
+  }
 
 
 /* BODY */
@@ -134,37 +134,63 @@ section {
 }
 
 .produto{
-    border: 1px;
-    border-radius: 4px;
-    background-color: rgba(252, 164, 166, 0.3);
-    width: 175px;
-    text-align: center;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-
+    width: 20rem;
+    margin: 1.5rem;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 1rem;
+    border-radius: 2.5rem;
 }
 
-.produto img {
-    width: 10rem;
-    margin: 1rem;
+.prod-container .produto .card-img{
+    position: relative;
+    width: 100%;
+    height: 26rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+
+.prod-container .produto .card-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .produto p {
     margin: 1rem;
+    text-align: center;
     text-transform: uppercase;
     color: #3b6fd9;
     font-weight: bold;
 }
 
-.comprar{
-    width: 9rem;
-    border-radius: 10px;
-    height: 2rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
-    background-color: white;
-    color: #3b6fd9;
-    border-style: none;
-    transition: transform 0.5s ease-in-out;
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comprar {
+    background-color: #FCA4A6;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: 0.5s ease;
 }
 
 /* Footer */

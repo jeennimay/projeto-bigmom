@@ -284,10 +284,6 @@ section.banner a{
     transition: 0.5s ease;
   }
   
-  .contact-form .input-box .send-btn:hover{
-    background: #235bf6;
-  }
-
 .depoimentos{
     width: 100%;
     border: none;
@@ -295,10 +291,6 @@ section.banner a{
     transition: 0.5s ease;
 }
   
-.contact-form .input-box .send-btn:hover {
-    background: #235bf6;
-}
-
 .flex-materias{ 
   display: flex; 
   flex-wrap: wrap; 

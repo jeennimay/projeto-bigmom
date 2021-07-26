@@ -21,3 +21,5 @@ Guilherme Iaquinto → https://github.com/guiiaquinto
 Ruan Araújo → https://github.com/ruvn27
 
 Reginaldo Guimarães → https://github.com/GuimaraesReginaldo
+
+Regina Celia Sobral Moraes
