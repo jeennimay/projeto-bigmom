@@ -1,11 +1,10 @@
-/* RESET */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-/* HTML */
+
 html{
     --white: #FCF8F8;
     --pink-dark:#A83E51;
@@ -14,30 +13,24 @@ html{
     --dark-blue: #3B6FD9;
     --green: #7ED9D0;
     --dark-green: #62C3D9;
+
     
     /* 1 rem = 16px (User agent) = 100% (User agent) */
     font-size: 62.5%; /* 10px */
     /* Aqui definimos o tamanho padrao pra 10px */
-    
     font-family: 'Comfortaa';
     color:var(--dark-blue);
 }
-/* /HTML */
 
-/* IMAGEM DE BACKGROUND DA PÁGINA */
-img.img_bg {
-    position: fixed;
-    z-index: -10;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+
+/* BODY */
+body {
+    font-family: 'Comfortaa', cursive, 'Montserrat', sans-serif;
+    background-color: var(--white);
 }
 
-section.conteudo {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(120deg, #f2b6d79d, #7ed9d09b);
-}
+
+/* menu - NAVBAR*/
 
 /* HEADER */
 .header{
@@ -46,101 +39,147 @@ section.conteudo {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0.5rem 0.5rem 1rem;
-    color: white;
     background-color: var(--pink);
     width: 100%;
-    height: 8rem;
+    height: 13rem;
+
 }
-.logo{
-    width: 6rem;
-    height: 5rem;
-    background: var(--pink-grey);
-    color: var(--white);
-    border-radius: 5rem;
-    text-align: center;
-    padding-top: 2rem;
-    font-style: italic;
+
+/* configuração class da imagem da logo*/
+img.logo_img {
+    height: 9rem;
+    width: auto;
+    margin-left: 4rem;
+}
+
+/* class do texto da logo */
+img.logo_img {
+    height: 9rem;
+    width: auto;
+    margin-left: 4rem;
+}
+
+/* class do texto da logo */
+.logo{ 
+    font-size: 3rem;
+    color: var(--pink-dark);
     font-weight: bolder;
-    margin-left: 3rem;
-}
-
-.item{
-    display: inline;
-    padding-bottom: 0.5rem;
-    margin: 0 0.5rem ;
-}
-.item > a{
-    color: #3B6FD9;
-    font-weight: bolder;
-}
-/* /HEADER */
-
-/* MAIN */
-main {
-    display: flex;
-    padding: 5rem 0;
-    justify-content: center;
-}
-
-/* CONTATO */
-section div {
-    z-index: 10;
-    background-color: rgba(252, 164, 165, 0.7);
-    border-radius: 20px;
-    padding: 3rem;
-}
-
-h1 {
-    text-align: center;
-    font-weight: bolder;
-    padding: 10px;
     text-transform: uppercase;
-}
-
-form label {
-    display: block;
-    margin: 1rem 0 0 1rem;
-}
-
-form input {
-    margin: 0.5rem;
-    border-radius: 25px;
-    border: solid 1px;
-    background-color: var(--white);
-    border-color: var(--dark-blue);
-    height: 2rem;
-    width: 80%;
-}
-
-form input[placeholder], textarea[placeholder] {
-    font-size: 8px;
-    padding: 3px 0px 0 5px;
-}
-
-form button {
-    display: block;
-    border-style: none;
-    border-radius: 2.5rem; 
-    background-color: var(--dark-blue);
-    color: aliceblue;
-    width: 10rem;
-    height: 3rem;
-    margin-top: 1rem;
-}
-
-.mensagem {
-    width: 200px;
-    height: 220px;
-    border-color:var(--dark-blue);
-    border-radius: .5rem;
-    margin-top: .5rem;
     
 }
 
-li {
-    list-style: none;
+nav.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4rem;
 }
-/* /CONTATO /
+
+.menu_item{
+    display: inline;
+    margin: 2rem;
+}
+.menu_item > a{
+    color: var(--pink-dark);
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* header */
+
+/* MAIN */
+
+
+main {
+    margin-bottom: 4rem;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 4px;
+    font-size: 2rem;
+}
+
+
+
+/* banner */
+
+.banner-container{
+    text-align: center;
+    width: 100%;
+}
+/* banner - imagem */
+.banner-produto{
+    margin: 5rem 0;
+    max-width: 500rem;
+}
+/* banner - descrição */
+.banner-desc{
+    margin-top: 60px;
+    text-align: center;
+}
+/* banner - descrição - paragráfo */
+.banner-desc>p{
+    padding: 0 10rem;
+}
+
+@media (max-width: 460px) {
+    .banner-container .banner-produto{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+/* produtos */
+.prod-container{
+    margin: 80px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background-color: none;
+    padding: 0 170px;
+}
+
+.produto{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    width: 175px;
+    text-align: center;
+}
+
+.produto img {
+    width: 10rem;
+    margin: 1rem;
+}
+
+.produto p {
+    margin: 1rem;
+    text-transform: uppercase;
+}
+
+.comprar{
+    width: 9rem;
+    border-radius: 10px;
+    height: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: tomato;
+    color: black;
+    border-style: none;
+    transition: color 1s ease-in-out;
+    transition: background-color 1s ease-in-out;
+}
 
 /* Footer */
 footer {
@@ -150,6 +189,7 @@ footer {
 }
 footer section.menu-footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 1rem;
 }
@@ -158,6 +198,7 @@ footer article {
     margin: 1rem;
     align-content: center;
     justify-content: center;
+    
 }
 footer article img{
     margin: 0 10px;
@@ -166,31 +207,26 @@ footer article img{
 }
 footer article p{
     display: inline;
+    margin: 0;
 }
 
-/* /FOOTER */
-
-@media (max-height: 799px), (max-width: 1000px){
-    .img_bg {
-        height: 100vh;
-        width: auto;
-    }
-    section.conteudo {
-        height: auto;
-        width: 100vw;
+@media (max-width:238px){
+    .menuSobre{
+        display: block;
     }
 }
 
-@media (min-width: 1001px), (min-height: 800px) {
-    .img_bg {
-        width: 100vw;
-        height: auto;
+@media (max-width: 740px){
+    nav.menu_item {
+        flex-wrap: wrap;
+        display: block;
+        justify-content: flex-start;
     }
-}
-
-@media (min-height: 800px) {
-    footer{ 
-        position: absolute;
-        bottom: 0;
+    footer article{
+    display: block;
+    justify-content: flex-start;
+    }
+    footer section.menu-footer{
+    display: block;
     }
 }
