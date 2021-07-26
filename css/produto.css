@@ -20,7 +20,6 @@ html{
     /* Aqui definimos o tamanho padrao pra 10px */
     font-family: 'Comfortaa';
     color:var(--dark-blue);
-    scroll-behavior: smooth;
 }
 
 
@@ -97,12 +96,9 @@ main {
 .imagem img {
     width: 100%;
     height: auto;
-    
 }
 
 section {
-    padding: 20px;
-    margin: 4px;
     font-size: 2rem;
 }
 
@@ -110,8 +106,9 @@ section {
 
 /* banner - imagem */
 .banner-produto{
-    max-width: 500rem;
     width: 100%;
+    max-width: 500rem;
+
 }
 /* banner - descrição */
 .banner-desc{
@@ -125,7 +122,7 @@ section {
 }
 
 @media (max-width: 460px) {
-    .banner-container .banner-produto{
+    .banner-produto{
         display: block;
         width: 100%;
         height: 100%;
@@ -229,4 +226,3 @@ footer article p{
     display: block;
     }
 }
-

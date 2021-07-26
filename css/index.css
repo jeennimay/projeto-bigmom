@@ -24,24 +24,6 @@ html{
 }
 
 
-p {
-  line-height: 3rem;
-  margin: 1rem 5rem 2rem 5rem;
-  text-indent: 2rem;
-  
-}
-
-h1{
-  margin: 3rem;
-  font-size: xx-large;
-  text-transform: uppercase;
-  
-}
-
-h2 {
-
-  text-align: center;
-}
 
 /* HEADER */
 .header{
@@ -111,12 +93,16 @@ section.banner h1{
     /* font-weight: bolder; */
 }
 
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
 section.banner div{
     max-width: 40%;
 }
 
 section.banner p{
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding-bottom: 4rem;
     color: var(--dark-blue);
 }
