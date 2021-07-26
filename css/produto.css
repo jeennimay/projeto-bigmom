@@ -20,6 +20,7 @@ html{
     /* Aqui definimos o tamanho padrao pra 10px */
     font-family: 'Comfortaa';
     color:var(--dark-blue);
+    scroll-behavior: smooth;
 }
 
 

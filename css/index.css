@@ -20,17 +20,19 @@ html{
   /* Aqui definimos o tamanho padrao pra 10px */
   font-family: 'Comfortaa';
   color:var(--dark-blue);
+  scroll-behavior: smooth;
 }
+
 
 p {
   line-height: 3rem;
   margin: 1rem 5rem 2rem 5rem;
-  text-indent: 20px;
+  text-indent: 2rem;
   
 }
 
 h1{
-  margin: 30px;
+  margin: 3rem;
   font-size: xx-large;
   text-transform: uppercase;
   
@@ -146,9 +148,9 @@ section.banner a{
 .Produtos .content .card .card-img{
     position: relative;
     width: 100%;
-    height: 260px;
+    height: 26rem;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 1rem;
     
 }
   
@@ -159,7 +161,7 @@ section.banner a{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 1rem;
     transition: 0.5s ease;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
@@ -203,7 +205,7 @@ section.banner a{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 2rem;
   }
   
   .contact .content .row{
@@ -215,26 +217,26 @@ section.banner a{
   
   .contact .content .row .card{
     background: #fff;
-    width: 240px;
-    margin: 20px;
-    padding: 25px;
+    width: 24rem;
+    margin: 2rem;
+    padding: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
+    border-radius: 1rem;
   }
   
   .contact .content .row .card .contact-icon{
     color: #3a6cf4;
-    font-size: 4em;
+    font-size: 4rem;
     text-align: center;
     transition: transform 0.5s ease;
   }
   
   .contact .content .row .card:hover .contact-icon{
-    transform: translateY(-10px);
+    transform: translateY(-1rem);
   }
   
   .contact .content .row .card .info{
@@ -243,44 +245,44 @@ section.banner a{
   
   .contact .content .row .card .info h3{
     color: #111;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 700;
-    margin: 10px;
+    margin: 1rem;
   }
   
     .contact-form{
     background: #fff;
-    max-width: 600px;
-    margin-top: 50px;
-    padding: 50px;
-    border-radius: 10px;
+    max-width: 60rem;
+    margin-top: 5rem;
+    padding: 5rem;
+    border-radius: 1rem;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
   }
   
   .contact-form h3{
     color: #111;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
   }
   
   .contact-form .input-box{
     position: relative;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
   
   .contact-form .input-box input,
   .contact-form .input-box textarea{
     color: #111;
     width: 100%;
-    padding: 10px;
-    font-size: 1em;
+    padding: 1rem;
+    font-size: 1rem;
     font-weight: 400;
     outline: none;
-    border: 1px solid #111;
-    border-radius: 5px;
+    border: 0.1rem solid #111;
+    border-radius: 0.5rem;
     resize: none;
   }
   
@@ -288,10 +290,10 @@ section.banner a{
     color: #fff;
     background: #3a6cf4;
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     width: 100%;
     border: none;
     cursor: pointer;
@@ -361,9 +363,9 @@ footer article {
   
 }
 footer article img{
-  margin: 0 10px;
-  width: 20px;
-  height: 20px;
+  margin: 0 1rem;
+  width: 2rem;
+  height: 2rem;
 }
 footer article p{
   display: inline;
