@@ -42,8 +42,7 @@ body {
     background-color: var(--pink);
     width: 100%;
     min-height: 13rem;
-  
-  }
+}
   
   /* configuração class da imagem da logo*/
   img.logo_img {
@@ -69,10 +68,10 @@ body {
     
   }
   
-  li.menu_item img {
+li.menu_item img {
     height: 3rem;
     width: auto;
-  }
+}
   /* /HEADER */
 
 
@@ -227,6 +226,12 @@ footer article p{
         display: block;
     }
 }
+@media (max-width: 500px){
+    .prod-container{
+        padding: 0;
+    }
+
+}
 
 @media (max-width: 740px){
     nav.menu_item {
@@ -252,7 +257,7 @@ footer article p{
     }
   }
   
-  @media (max-width:375px){
+@media (max-width:375px){
     .menu_item {
       margin: 1rem;
       
@@ -265,5 +270,19 @@ footer article p{
     nav.menu {
       margin-right: 0;
     }
-    
-  }
+        
+}
+
+@media (min-width: 1440px) {
+    section.banner {
+      height: 65rem;
+    }
+    .Produtos .content .card {
+      margin: 1rem 6rem 8rem 6rem;
+      width: 40rem;
+    }
+    .Produtos .content .card .card-img {
+      height: 50rem;
+      width: 100%;
+    }
+}
